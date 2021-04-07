@@ -8,17 +8,10 @@
             <title>MS. Rawl. C. 322</title>
             <title type="collection">MSS. Rawl. C (Rawlinson C)</title>
             <respStmt>
-               <resp>Summary description</resp>
-               <persName>Elizabeth Solopova</persName><persName>Matthew Holford</persName>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition>TEI P5</edition>
-            <respStmt>
-               <resp>Conversion to TEI based on earlier work for the ENRICH project (enrich@oucs.ox.ac.uk; http://tei.oucs.ox.ac.uk/ENRICH/)</resp>
+               <resp when="2021-04">Cataloguer (summary description)</resp>
                <persName>Matthew Holford</persName>
             </respStmt>
-         </editionStmt>
+         </titleStmt>
          <publicationStmt>
             <publisher>Special Collections, Bodleian Libraries</publisher>
             <address>
@@ -53,12 +46,18 @@
                </msIdentifier>
                <msContents>
                   <msItem xml:id="MS_Rawl_C_322-item1" n="1">
-                     <author key="person_214980060">
-                        
-                        Petrus Alfonsi
-                     
-                     </author>
+                     <locus>(fols. 1r-60v)</locus>
+                     <author key="person_214980060">Petrus Alfonsi</author>
                      <title key="work_3571">Dialogus contra Iudaeos</title>
+                     <incipit>Uni et eterno primo, caret principio et qui caret termino</incipit>
+                     <rubric>Incipit prologus</rubric>
+                     <incipit>Dixit sequentis operis compositor, omnipotens suo nos spiritu inspirauit</incipit>
+                     <explicit><locus>(fol. 1va)</locus> citius in illus inueniat</explicit>
+                     <note>[no tituli]</note>
+                     <rubric>Explicit prologus. Incipit liber primus.</rubric>
+                     <incipit>A tenera igitur pueritie etate</incipit>
+                     <explicit>principium tibi prestet. Amen.</explicit>
+                     <finalRubric><locus>[top margin]</locus> Explicit disputatio inter eos</finalRubric>
                      <textLang mainLang="la">Latin</textLang>
                   </msItem>
                </msContents>
@@ -66,18 +65,47 @@
                   <objectDesc form="codex">
                      <supportDesc material="perg">
                         <support>parchment</support>
+                        <extent>vi (paper) + 60 + vi (paper)
+                           <dimensions unit="mm" type="leaf">
+                              <height>240</height>
+                              <width>165</width>
+                           </dimensions></extent>
+                        <foliation>Incomplete foliation 1-60 in 19th-century pencil; six paper endleaves at front and back not foliated.</foliation>
                      </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="36">2 cols., 36 lines; ruled space c. <dimensions unit="mm" type="ruled">
+                           <height>175</height>
+                           <width>115</width>
+                        </dimensions></layout>
+                     </layoutDesc>
                   </objectDesc>
+                  <handDesc hands="1">
+                     <handNote script="cursivaAntiquior">Anglicana probably by one hand.</handNote>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote type="flourInit">Puzzle initial, fol. 1r; penwork initials (blue, flourished in red and light blue; red, flourished in blue and light blue)</decoNote>
+                     <decoNote type="diagram">Diagrams: fol. 6r (climatic zones; circuit of the sun around the earth); fol. 35r, tetragrammaton (IE-EV-VE). </decoNote>
+                  </decoDesc>
+                  <bindingDesc>
+                     <binding notAfter="1800" notBefore="1700">
+                        <p>18th(?)-century calf.</p>
+                     </binding>
+                  </bindingDesc>
                </physDesc>
                <history>
                   <origin>
-                     <origDate calendar="Gregorian" notAfter="1400" notBefore="1300">14th century</origDate>
+                     <origPlace><country key="place_7002445">England</country></origPlace>
+                     <origDate calendar="Gregorian" notAfter="1350" notBefore="1300">14th century, first half</origDate>
+                     
                   </origin>
-               <provenance notBefore="1690" notAfter="1755" resp="#MMM"><persName role="fmo" key="person_47563478">Richard Rawlinson, 1690-1755</persName></provenance><acquisition when="1755" resp="#MMM">Bequeathed to the Bodleian in 1755</acquisition></history>
+                  <provenance>Lower part of fol. 1 excised.</provenance>
+                  <provenance>Paper label '924' stuck to fol. [vi]</provenance>
+               <provenance notBefore="1690" notAfter="1755" resp="#MMM"><persName role="fmo" key="person_47563478">Richard Rawlinson, 1690-1755</persName></provenance>
+               <acquisition when="1755" resp="#MMM">Bequeathed to the Bodleian in 1755</acquisition></history>
                <additional>
                   <adminInfo>
                      <recordHist>
-                        <source><ref target="https://medieval.bodleian.ox.ac.uk/about">Summary description</ref> abbreviated from the Quarto Catalogue (W. D. Macray, <title>Catalogi codicum manuscriptorum Bibliothecæ Bodleianæ...viri munificentissimi Ricardi Rawlinson, J.C.D., codicum...complectens</title>, Quarto Catalogues V, 5 fascicles, 1862-1900).  
+                        <source>Summary description by Matthew Holford (April 2021). Previously described in the Quarto Catalogue (W. D. Macray, <title>Catalogi codicum manuscriptorum Bibliothecæ Bodleianæ...viri munificentissimi Ricardi Rawlinson, J.C.D., codicum...complectens</title>, Quarto Catalogues V, 5 fascicles, 1862-1900).  
                             
                             
                             <listBibl>
@@ -91,7 +119,9 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>       
-      <revisionDesc><change when="2019-10-31" xml:id="MMM"><persName>Toby Burrows/Mapping Manuscript Migrations</persName>Provenance and acquisition information added using <ref target="https://github.com/mapping-manuscript-migrations/oxford-tei-updates/blob/master/update_oxford_prov.rb">https://github.com/mapping-manuscript-migrations/oxford-tei-updates/blob/master/update_oxford_prov.rb</ref> in collaboration with the <ref target="http://mappingmanuscriptmigrations.org/">Mapping Manuscript Migrations</ref> project.</change>          <change when="2017-07-01">First online publication.</change>
+      <revisionDesc>
+         <change when="2021-04-07">New summary description based on examination of manuscript.</change>
+         <change when="2019-10-31" xml:id="MMM"><persName>Toby Burrows/Mapping Manuscript Migrations</persName>Provenance and acquisition information added using <ref target="https://github.com/mapping-manuscript-migrations/oxford-tei-updates/blob/master/update_oxford_prov.rb">https://github.com/mapping-manuscript-migrations/oxford-tei-updates/blob/master/update_oxford_prov.rb</ref> in collaboration with the <ref target="http://mappingmanuscriptmigrations.org/">Mapping Manuscript Migrations</ref> project.</change>          <change when="2017-07-01">First online publication.</change>
 
          <change when="2017-05-29">
             <persName>James Cummings</persName> Up-converted the markup using <ref target="https://github.com/jamescummings/Bodleian-msDesc-ODD/blob/master/convertTolkien2Bodley.xsl">https://github.com/jamescummings/Bodleian-msDesc-ODD/blob/master/convertTolkien2Bodley.xsl</ref>
