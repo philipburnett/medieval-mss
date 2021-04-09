@@ -84,7 +84,8 @@
                   </handDesc>
                   <decoDesc>
                      <decoNote type="flourInit">Puzzle initial, fol. 1r; penwork initials (blue, flourished in red and light blue; red, flourished in blue and light blue)</decoNote>
-                     <decoNote type="diagram">Diagrams: fol. 6r (climatic zones; circuit of the sun around the earth); fol. 35r, tetragrammaton (IE-EV-VE). </decoNote>
+                     <decoNote type="map">Diagrammatic map, fol. 6r: mappa mundi / climatic zones</decoNote>
+                     <decoNote type="diagram">Diagrams, fol. 6r (circuit of the sun around the earth); fol. 35r, tetragrammaton (IE-EV-VE). </decoNote>
                   </decoDesc>
                   <bindingDesc>
                      <binding notAfter="1800" notBefore="1700">
@@ -99,7 +100,8 @@
                      
                   </origin>
                   <provenance>Lower part of fol. 1 excised.</provenance>
-                  <provenance>Paper label '924' stuck to fol. [vi]</provenance>
+                  <provenance>Unidentified 17th- or 18th-century collection: paper label '924' stuck to fol. [vi]</provenance>
+                  <!-- catalogues checked: Thomas Sclater Bacon; Thomas Rawlinson; Wilmington; Francis Pole; Brydges/Chandos; le Neve. Enright gives no clues-->
                <provenance notBefore="1690" notAfter="1755" resp="#MMM"><persName role="fmo" key="person_47563478">Richard Rawlinson, 1690-1755</persName></provenance>
                <acquisition when="1755" resp="#MMM">Bequeathed to the Bodleian in 1755</acquisition></history>
                <additional>
